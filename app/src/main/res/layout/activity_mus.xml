@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/activity_mus_text_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Vous avez vu une star à cet endroit : "
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/activity_mus_text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Par quel moyen se déplaçait-elle ? "
+        android:layout_below="@+id/textView3"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/activity_mus_btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorAccent"
+        android:background="@android:color/white"
+        android:textSize="20sp"
+        android:text="A pied"
+        android:checked="true"/>
+
+    <RadioButton
+        android:id="@+id/activity_mus_btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorAccent"
+        android:background="@android:color/white"
+        android:textSize="20sp"
+        android:text="En voiture"/>
+
+    <RadioButton
+        android:id="@+id/activity_mus_btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorAccent"
+        android:background="@android:color/white"
+        android:textSize="20sp"
+        android:text="En vélo"/>
+
+</RadioGroup>
+
+    <TextView
+        android:id="@+id/activity_mus_text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Quelle star était-ce ? "
+        android:layout_below="@+id/activity_mus_btn_3"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <!-- Editext for Search -->
+    <EditText android:id="@+id/inputSearch"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:hint="Cherche une star"
+              android:inputType="textVisiblePassword"/>
+
+    <Button
+        android:id="@+id/activity_mus_btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorAccent"
+        android:background="@android:color/white"
+        android:textSize="20sp"
+        android:text="Soumettre"/>
+
+
+</LinearLayout>

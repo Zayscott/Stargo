@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">StarGO</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- activity_connexion -->
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <!-- activity_inscription -->
+
+    <!-- activity_main -->
+
+    <!-- activity_mus -->
+
+    <!-- activity_tus -->
+
+
+
+</resources>

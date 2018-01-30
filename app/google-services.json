@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "152197635242",
+    "firebase_url": "https://stargo-374ac.firebaseio.com",
+    "project_id": "stargo-374ac",
+    "storage_bucket": "stargo-374ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152197635242:android:db794ef50836cdca",
+        "android_client_info": {
+          "package_name": "com.example.antho.stargo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152197635242-orbhbrtc55nusm2sp0qer05vftp1h892.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.antho.stargo",
+            "certificate_hash": "ea03c7fd8ea2bf8459355d065fcca074e297ce7e"
+          }
+        },
+        {
+          "client_id": "152197635242-dbgtohgf6e5csasgdmupc9bqqa0og033.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxm9J5ZVNBU7pkWZg1UdHt0r7WhsOl92A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152197635242-dbgtohgf6e5csasgdmupc9bqqa0og033.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
